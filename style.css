@@ -1,0 +1,57 @@
+@font-face {
+    font-family: poppin;
+    src: url("font/Poppins-Medium.ttf");
+}*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --color-text:#242A45;
+}
+body{
+    background-color: white;
+}
+nav{
+   display: flex;
+   align-items: center;
+   justify-content:center ;
+   margin: 75px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    
+}
+.lists{
+    gap: 30px;
+}
+.list{
+    gap: 30px;
+}
+a{
+    text-decoration: none;
+    color: var(--color-text);
+    font-family:poppin;
+    font-size: 12px;
+}
+.btn{
+    background-color: rgb(250, 89,89);
+    color: white;
+    border: white;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    margin-left: 30px;
+    margin-right: 0px;
+}
+.logo{
+    width: ;
+    margin-right: 600px;
+}
+.icon{
+    display: none;
+}
+@media screen and (max-width:640px){
+    
+}
